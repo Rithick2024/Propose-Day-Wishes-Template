@@ -22,8 +22,8 @@ function App() {
         <HeroSection onEnter={() => setShowContent(true)} />
       ) : (
         <div className="animate-fadeIn">
-          <StorySection />
           <ProposalSection />
+          <StorySection />
         </div>
       )}
     </div>
